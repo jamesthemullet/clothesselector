@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Home from "./components/Home";
 import Nav from "./components/Nav";
 
 function App() {
@@ -23,8 +22,7 @@ function App() {
       <header className="App-header">
         <h1>Clothes Selector</h1>
       </header>
-      <main>
-        <Home />
+      <main className="App-main">
         <Nav data={wardrobe} />
       </main>
     </div>

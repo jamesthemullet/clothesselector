@@ -11,8 +11,6 @@ const YourWardrobe = () => {
     <div>
       <p>this is what is in your wardrobe</p>
       {Object.entries(male).map(([key, part]: any) => {
-        console.log(2, key);
-        console.log(3, part);
         <p>hi</p>;
         return <Wardrobe key={key} data={part} />;
       })}

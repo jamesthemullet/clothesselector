@@ -3,18 +3,21 @@ import AddToWardrobe from "../AddToWardrobe";
 import SelectWardrobe from "../SelectWardrobe";
 import YourWardrobe from "../YourWardrobe";
 import Home from "../Home";
+import "./nav.css";
 
 const Nav = (data) => {
   return (
     <Router>
-      <div>
+      <div className="nav">
         <nav>
-          <ul>
+          <ul className="top-nav">
             <li>
-              <Link to="/home">Home</Link>
+              <Link state={data} to="/">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/addToWardrobe">Add items to your wardrobe</Link>
+              <Link to="/addToWardrobe">Add items</Link>
             </li>
             <li>
               <Link state={data} to="/selectWardrobe">
