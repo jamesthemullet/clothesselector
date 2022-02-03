@@ -10,12 +10,14 @@
   min-height: 100vh;
   background: lavender;
   padding: 20px;
+  color: #420c3b;
 }
 
 .App-header {
   font-family: "Pacifico", cursive;
   font-size: 2em;
   max-width: 600px;
+  color: #c724b1;
 }
 
 .App-main {

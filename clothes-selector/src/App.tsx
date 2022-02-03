@@ -10,7 +10,6 @@ function App() {
         const data = await fetch("src/components/YourWardrobe/data.json");
         const Wardrobe = await data.json();
         setWardrobe(Wardrobe);
-        console.log(1, Wardrobe);
       } catch (e) {
         return;
       }

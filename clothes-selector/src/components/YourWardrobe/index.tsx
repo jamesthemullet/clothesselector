@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Wardrobe from "../Wardrobe";
 import { useLocation } from "react-router-dom";
 
@@ -9,9 +8,8 @@ const YourWardrobe = () => {
   } = location.state;
   return (
     <div>
-      <p>this is what is in your wardrobe</p>
-      {Object.entries(male).map(([key, part]: any) => {
-        <p>hi</p>;
+      <p>This is what is in your wardrobe</p>
+      {Object.entries(male).map(([key, part]) => {
         return <Wardrobe key={key} data={part} />;
       })}
     </div>

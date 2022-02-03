@@ -1,11 +1,14 @@
 import "./home.css";
 import SelectWardrobe from "../SelectWardrobe";
 import { useLocation } from "react-router-dom";
+interface LocationState {
+  data: {};
+}
 
-const Home = () => {
+const Home: React.FC = () => {
   const location = useLocation();
-  console.log(70, location);
-  const { data } = location.state;
+  const { data } = location.state as LocationState;
+
   return (
     <div className="home">
       <p>

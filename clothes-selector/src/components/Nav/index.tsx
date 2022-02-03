@@ -5,7 +5,11 @@ import YourWardrobe from "../YourWardrobe";
 import Home from "../Home";
 import "./nav.css";
 
-const Nav = (data) => {
+interface NavProps {
+  data: {};
+}
+
+const Nav = (data: NavProps) => {
   return (
     <Router>
       <div className="nav">
