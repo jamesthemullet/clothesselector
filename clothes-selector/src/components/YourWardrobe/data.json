@@ -1,0 +1,134 @@
+{
+  "male": {
+    "bottom": [
+      {
+        "type": "trousers",
+        "colour": "grey",
+        "designFeature": null,
+        "make": null
+      },
+      {
+        "type": "trousers",
+        "colour": "red",
+        "designFeature": null,
+        "make": null
+      },
+      {
+        "type": "jeans",
+        "colour": "blue",
+        "designFeature": null,
+        "make": null
+      },
+      {
+        "type": "jeans",
+        "colour": "black",
+        "designFeature": null,
+        "make": null
+      },
+      {
+        "type": "jeans",
+        "colour": "grey",
+        "designFeature": null,
+        "make": null
+      }
+    ],
+    "top": [
+      {
+        "type": "shirt",
+        "colour": "red",
+        "designFeature": null,
+        "make": null
+      },
+      {
+        "type": "shirt",
+        "colour": "yellow",
+        "designFeature": null,
+        "make": null
+      },
+      {
+        "type": "shirt",
+        "colour": "blue",
+        "designFeature": "spotted",
+        "make": null
+      },
+      {
+        "type": "shirt",
+        "colour": "grey",
+        "designFeature": "checked",
+        "make": null
+      },
+      {
+        "type": "t-shirt",
+        "colour": "light blue",
+        "designFeature": "polka dot",
+        "make": null
+      },
+      {
+        "type": "t-shirt",
+        "colour": "navy",
+        "designFeature": null,
+        "make": null
+      },
+      {
+        "type": "t-shirt",
+        "colour": "black",
+        "designFeature": "goth",
+        "make": null
+      },
+      {
+        "type": "t-shirt",
+        "colour": "black",
+        "designFeature": null,
+        "make": null
+      }
+    ],
+    "feet": [
+      {
+        "type": "trainers",
+        "colour": "blue",
+        "designFeature": null,
+        "make": "adidas"
+      },
+      {
+        "type": "trainers",
+        "colour": "white",
+        "designFeature": null,
+        "make": "converse"
+      }
+    ],
+    "coats": [
+      {
+        "type": "coat",
+        "colour": "blue",
+        "designFeature": "large",
+        "make": null
+      },
+      {
+        "type": "coat",
+        "colour": "white",
+        "designFeature": "checked",
+        "make": null
+      },
+      {
+        "type": "jacket",
+        "colour": "beige",
+        "designFeature": null,
+        "make": null
+      }
+    ],
+    "scarves": [
+      {
+        "type": "scarf",
+        "colour": "red",
+        "designFeature": null,
+        "make": null
+      },
+      {
+        "type": "scarf",
+        "colour": "blue",
+        "designFeature": null,
+        "make": null
+      }
+    ]
+  }
+}
