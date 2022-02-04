@@ -16,7 +16,7 @@ const Nav = (data: NavProps) => {
         <nav>
           <ul className="top-nav">
             <li>
-              <Link state={data} to="/">
+              <Link state={data || {}} to="/">
                 Home
               </Link>
             </li>

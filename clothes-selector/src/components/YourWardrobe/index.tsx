@@ -1,11 +1,17 @@
 import Wardrobe from "../Wardrobe";
 import { useLocation } from "react-router-dom";
 
+interface LocationState {
+  data: {
+    male: {};
+  };
+}
+
 const YourWardrobe = () => {
   const location = useLocation();
   const {
     data: { male },
-  } = location.state;
+  } = location.state as LocationState;
   return (
     <div>
       <p>This is what is in your wardrobe</p>

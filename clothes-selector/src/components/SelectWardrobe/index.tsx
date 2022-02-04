@@ -1,14 +1,23 @@
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
 
+interface LocationState {
+  state: {
+    data: {
+      male: [];
+    };
+  };
+}
+
 const SelectWardrobe = () => {
   const [myOutfit, setMyOutfit] = useState(null);
   const location = useLocation();
-  const {
-    data: { male },
-  } = location.state;
+  const { state } = location as LocationState;
 
   const chooseMyOutfit = () => {
+    const {
+      data: { male },
+    } = state;
     const generatedOutfit = [];
     Object.keys(male).forEach((key) => {
       generatedOutfit.push(

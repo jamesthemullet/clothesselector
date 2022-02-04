@@ -2,12 +2,14 @@ import "./home.css";
 import SelectWardrobe from "../SelectWardrobe";
 import { useLocation } from "react-router-dom";
 interface LocationState {
-  data: {};
+  state: {
+    data: {};
+  };
 }
 
-const Home: React.FC = () => {
+const Home: React.FC<SearchProps> = () => {
   const location = useLocation();
-  const { data } = location.state as LocationState;
+  const { state } = location as LocationState;
 
   return (
     <div className="home">
@@ -20,7 +22,7 @@ const Home: React.FC = () => {
         Why spend effort in making the decision when Clothes Selector can decide
         for you.
       </p>
-      <SelectWardrobe data={data} />
+      <SelectWardrobe data={state && state.data} />
     </div>
   );
 };
